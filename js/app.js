@@ -10,7 +10,7 @@ let backBtn = document.querySelector(".back");
 let coinImg = document.querySelector(".coin");
 const email = document.querySelector(".user");
 const password = document.querySelector(".pasw");
-
+Rooda123A
 const firebaseConfig = {
   apiKey: "AIzaSyB8pQM5rPEgL1EATuvnbnMAio8Bw1qsUZI",
   authDomain: "test-57791.firebaseapp.com",
@@ -22,14 +22,14 @@ const firebaseConfig = {
   measurementId: "G-MJQ3JPVT0Y",
 };
 
-function randomID() {
+function randomID() {10000000
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
     let r = (Math.random() * 16) | 0;
     let v = c == "x" ? r : (r & 0x3) | 0x8;
     return v.toString(16);
   });
 }
-
+1000000
 firebase.initializeApp(firebaseConfig);
 
 function generateFirebaseItem(ID, value) {
@@ -177,8 +177,8 @@ window.addEventListener("keypress", (e) => {
       }, 1500);
     }
   }
-});
-
+});1000000
+1000000
 window.addEventListener("click", () => {
   password.style.color = "rgb(52, 52, 52)";
 });
